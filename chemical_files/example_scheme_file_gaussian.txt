@@ -1,0 +1,27 @@
+### Gaussian Calculation Schemes
+### GaussView 4.0.1
+### Herman, elijah, chem.umkc.edu
+### 2/3/2006 11:10:25 AM
+HF_/_321G_O_=_#p opt hf/3-21g geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_Fri Feb 3 10:51:57 2006
+HF_/_631G*_O_=_#p opt hf/6-31g(d) geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_Fri Feb 3 10:49:12 2006
+HF_/_6311G*_O_=_#p opt hf/6-311g(d) geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+HF_/_Big_O_=_#p hf/6-311++g(2d,2p) opt geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+HF_/_Big_OF_=_#p hf/6-311++g(2d,2p) opt freq geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+HF_/_Big_OF GRCE_=_#p hf/6-311++g(2d,2p) opt freq geom=connectivity guess=read_Link0_ %mem=6MW %chk={copy existing}.chk %nprocshared=1_LastUsed_Fri Feb 3 11:00:57 2006
+HF_/_NMR_=_#p hf/6-31+G* geom=connectivity nmr_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+HF_/_NMR EV_=_#p hf/6-31+G* geom=connectivity nmr=printeigenvectors_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+B3LYP_/_321G_O_=_#p opt b3lyp/3-21g geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_Fri Feb 3 10:51:57 2006
+B3LYP_/_631G*_O_=_#p opt b3lyp/6-31g(d) geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_Fri Feb 3 10:49:12 2006
+B3LYP_/_6311G*_O_=_#p opt b3lyp/6-311g(d) geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+B3LYP_/_Big_O_=_#p b3lyp/6-311++g(2d,2p) opt geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+B3LYP_/_Big_OF_=_#p b3lyp/6-311++g(2d,2p) opt freq geom=connectivity_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+B3LYP_/_Big_OF GRCE_=_#p b3lyp/6-311++g(2d,2p) opt freq geom=connectivity guess=read_Link0_ %mem=6MW %chk={copy existing}.chk %nprocshared=1_LastUsed_Fri Feb 3 10:59:39 2006
+B3LYP_/_NMR_=_#p b3lyp/6-31+G* geom=connectivity nmr_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+B3LYP_/_NMR EV_=_#p b3lyp/6-31+G* geom=connectivity nmr=printeigenvectors_Link0_ %mem=6MW %chk={parent file name}.chk %nprocshared=1_LastUsed_Fri Feb 3 11:06:27 2006
+MP2_/_631G*_O_=_#p opt mp2/6-31g(d) geom=connectivity_Link0_ %mem=18MW %chk={parent file name}.chk %nprocshared=1_LastUsed_Fri Feb 3 10:49:12 2006
+MP2_/_6311G*_O_=_#p opt mp2/6-311g(d) geom=connectivity_Link0_ %mem=18MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+MP2_/_Big_O_=_#p mp2/6-311++g(2d,2p) opt geom=connectivity_Link0_ %mem=18MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+MP2_/_Big_OF_=_#p mp2/6-311++g(2d,2p) opt freq geom=connectivity_Link0_ %mem=18MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+MP2_/_Big_OF GRCE_=_#p mp2/6-311++g(2d,2p) opt freq geom=connectivity guess=read_Link0_ %mem=18MW %chk={copy existing}.chk %nprocshared=1_LastUsed_Fri Feb 3 10:59:39 2006
+MP2_/_NMR_=_#p mp2/6-31+G* geom=connectivity nmr_Link0_ %mem=18MW %chk={parent file name}.chk %nprocshared=1_LastUsed_
+MP2_/_NMR EV_=_#p mp2/6-31+G* geom=connectivity nmr=printeigenvectors_Link0_ %mem=18MW %chk={parent file name}.chk %nprocshared=1_LastUsed_Fri Feb 3 11:09:31 2006
